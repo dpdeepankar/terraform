@@ -1,0 +1,7 @@
+in this approach of module development we have noticed
+
+the variables has to be defined in main.tf outside the module and in variables.tf inside the module.
+
+then we need to prepare a terraform.tfvars file outside the module to populate the value for each variable.
+
+if we miss to define a vaiable in terrraform .tfvars file that is being used in any of the modules  then it will prompt to provide that variable definition 
